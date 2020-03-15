@@ -19,4 +19,4 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: Hey Matt and Tony! Isn't Kubernetes fun?
+          value: See josue? domains can be easy!
