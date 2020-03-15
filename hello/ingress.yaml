@@ -9,7 +9,7 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-passthrough: "true"
 spec:
   rules:
-  - host: 
+  - host: josue.k8s.halyard.app
     http:
       paths:
       - backend:
@@ -18,4 +18,5 @@ spec:
         path: /
   tls:
   - hosts:
-    secretName: packet-secret
+    - josue.k8s.halyard.app
+    secretName: hello-secret # do not change, this is provided by Argo CD
