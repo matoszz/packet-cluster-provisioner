@@ -17,4 +17,4 @@ spec:
   tls:
   - hosts:
     - josue.k8s.halyard.app
-    secretName: hello-secret # do not change, this is provided by Argo CD
+    secretName: hello-secret
